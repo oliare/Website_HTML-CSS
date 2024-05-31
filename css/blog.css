@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Magra';
+    src: url('../fonts/Magra-Bold.ttf');
+}
+
+section {
+    text-align: center;
+    background: #c8c10d;
+    height: 8vh;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: x-large;
+    line-height: 8vh;
+}
+
+.subtitle{
+    font-size: 12px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    color: #7a6666;
+}
+
+.blogtxt {
+    margin-bottom: 50px;
+    color: #7a6666;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+aside {
+    background-color: #efedee;
+    margin-right: 20px;
+    padding: 30px 40px;
+    text-align: center;
+    height: 79vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 40px 0;
+}
+
+main h3,
+aside h3 {
+    color: #cb3362;
+    font-weight: normal;
+}
+
+aside h1{
+    font-family: "Magra";
+    color: #cb3362;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #7a6666;
+    font-weight: 500px;
+    border: 1px solid #7a6666;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #d0cd60;
+    border-color: transparent;
+    transition: 0.3s ease;
+}
+
+.title {
+    margin: 40px;
+    display: flex;
+}
+
+.title img {
+    margin: 40px;
+}
+
+hr {
+    width: 75%;
+    margin-left: 100px;
+}
